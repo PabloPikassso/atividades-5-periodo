@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+
+<body>
+    <form action="/register" method="post">
+        <fieldset> 
+            <legend>Crie sua conta</legend>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Informe seu nome"
+            name="nome" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Informe seu nome"
+            name="email" id="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" placeholder="coloque sua senha"
+            name="password" id="password" required>
+            
+
+            <h3>Gênero:</h3>
+            <div>
+                <label for="">
+                <input type="radio"> 
+                Masculino
+            </label>
+            
+            <label for="">
+                <input type="radio"> 
+                Feminino
+            </label>
+            
+            <label for="">
+                <input type="radio"> 
+                Outro
+            </label>
+
+            </div>
+
+            <h3>Biografia:</h3>
+            <Label for="biografia">
+                
+                <textarea rows="5" cols="50" name="biografia" id="biografia"></textarea>
+            </Label>
+
+            <br>
+            
+            <label for="">
+                <input type="checkbox" required>
+                Aceito os termos e condições
+            </label>  
+
+        </fieldset>
+
+        
+        <input type="submit" value="Cadastrar">
+        
+        <button type="reset">Limpar</button>
+
+        
+    </form>
+</body>
+</html>
