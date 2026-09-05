@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    text-align: center;
+    margin: 50px;
+}
+
+#input{
+    margin-top: 20px;
+}
+
+#botao{
+    margin-top: 20px;
+    
+}
+
+
