@@ -1,0 +1,27 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0; /* Remove o espaçamento padrão da lista */
+}
+
+
+ul li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem; 
+    padding: 1.5rem;
+    background-color: #ffffff; 
+    border: 1px solid #eaeaea; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    list-style: none; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
